@@ -7,5 +7,40 @@ body{
 body header{
     display: flex;
     justify-content:space-around;
-    padding: 10%;
+    padding: 4%;
+}
+h1{
+    font-size:400%;
+    color: aliceblue;
+    font-style:oblique;
+}
+p{
+    font-size: larger;
+    font-style: oblique;
+    color: aliceblue;
+
+}
+#joo{
+    width: 50%;
+    margin: 10%;
+    border: 100px;
+    border-color: aliceblue;
+}
+.lii{
+    float: left;
+    color: white;
+    background-color: grey;
+    display: block;
+    padding: 14px 16px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
 }
