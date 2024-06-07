@@ -4,20 +4,21 @@
  }
  /* Stijl voor het element met ID 'ii' */
  #ii{
-    text-align: center; /* Centreert de tekst binnen het element */
+    text-align: center; /*zorgt ervoor dat de tekst in de centrum komt te staan*/
     font-size: 400%; /* Zet de lettergrootte op 400% van de standaardgrootte */
     color: aliceblue; /* Verandert de tekstkleur naar aliceblue */
-    font-style: oblique; /* Maakt de tekst schuin */
+    font-style: oblique; /* Maakt de tekst mooi */
  }
  /* Stijl voor het element met ID 'joo' */
  #joo{
     width: 50%; /* Zet de breedte van het element op 50% van de container */
-    margin: 10%; /* Zet de marge rondom het element op 10% */
+    margin: 15%; /* Zet de marge rondom het element op 10% */
     border: 100px; /* Zet de randbreedte op 100 pixels */
-    border-color: aliceblue; /* Zet de randkleur op aliceblue */
-    font-size: larger; /* Vergoot de lettergrootte */
-    font-style: oblique; /* Maakt de tekst schuin */
+    border-color: rgb(0, 0, 0); /* Zet de randkleur op aliceblue */
+    font-size: xx-large; /* Vergoot de lettergrootte */
+    font-style: oblique; /* Maakt de tekst mooi */
     color: aliceblue; /* Verandert de tekstkleur naar aliceblue */
+    text-align: center;
  }
  /* Stijl voor de navigatielijstitems */
  .lii{
@@ -25,7 +26,7 @@
     color: white; /* Verandert de tekstkleur naar wit */
     background-color: grey; /* Zet de achtergrondkleur op grijs */
     display: block; /* Zorgt ervoor dat het element als een blok wordt weergegeven */
-    padding: 14px 16px; /* Voegt opvulling toe binnen het element (14 pixels boven/onder, 16 pixels links/rechts) */
+    padding: 14px 16px; /* houd het binnen de box erin kwa hoe ver enzo */
  }
  /* Stijl voor de navigatielijst */
  .navigatie {
@@ -49,7 +50,7 @@
  }
  /* Stijl voor het element met ID 'body3' */
  #body3 {
-    font-family: Arial, sans-serif; /* Zet de lettertypefamilie op Arial, met een sans-serif fallback */
+    font-family: Arial, sans-serif; /* Zet de lettertypefamilie op Arial, met een sans-serif */
     line-height: 1.6; /* Zet de regelhoogte op 1.6 */
     background-color: #f7f7f7; /* Zet de achtergrondkleur op lichtgrijs */
     margin: 0; /* Verwijdert de marges rondom het element */
@@ -59,14 +60,14 @@
  #header3{
     background: #333; /* Zet de achtergrondkleur op donkergrijs */
     color: #fff; /* Verandert de tekstkleur naar wit */
-    padding: 10px 0; /* Voegt opvulling toe binnen het element (10 pixels boven/onder) */
+    padding: 10px 0; 
     text-align: center; /* Centreert de tekst binnen het element */
  }
  /* Stijl voor het element met klasse 'div3' */
  .div3 {
     width: 80%; /* Zet de breedte van het element op 80% van de container */
-    margin: 20px auto; /* Zet de marge rondom het element op 20 pixels, met automatische horizontale marges */
-    padding: 20px; /* Voegt opvulling toe binnen het element (20 pixels) */
+    margin: 20px auto; /* Zet de marge rondom het element op 20 pixels */
+    padding: 20px; /* Voegt opvulling toe binnen het element  */
     background: #fff; /* Zet de achtergrondkleur op wit */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Voegt een lichte schaduw toe aan het element */
  }
@@ -95,7 +96,7 @@
  }
  /* Stijl voor het element met ID 'body4' */
  #body4 {
-    font-family: Arial, sans-serif; /* Zet de lettertypefamilie op Arial, met een sans-serif fallback */
+    font-family: Arial, sans-serif; /* Zet de lettertypefamilie op Arial, met een sans-serif vh */
     line-height: 1.6; /* Zet de regelhoogte op 1.6 */
     background-color: #f7f7f7; /* Zet de achtergrondkleur op lichtgrijs */
     margin: 0; /* Verwijdert de marges rondom het element */
@@ -111,7 +112,7 @@
  /* Stijl voor het element met klasse 'yallah' */
  .yallah {
     width: 80%; /* Zet de breedte van het element op 80% van de container */
-    margin: 20px auto; /* Zet de marge rondom het element op 20 pixels, met automatische horizontale marges */
+    margin: 20px auto; /* Zet de marge rondom het element op 20 pixels*/
     padding: 20px; /* Voegt opvulling toe binnen het element (20 pixels) */
     background: #fff; /* Zet de achtergrondkleur op wit */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Voegt een lichte schaduw toe aan het element */
@@ -131,7 +132,7 @@
  }
  /* Stijl voor het element met ID 'body5' */
  #body5 {
-    font-family: Arial, sans-serif; /* Zet de lettertypefamilie op Arial, met een sans-serif fallback */
+    font-family: Arial, sans-serif; /* Zet de lettertypefamilie op Arial, met een sans-serif  */
     background-color: #f0f0f0; /* Zet de achtergrondkleur op lichtgrijs */
     margin: 0; /* Verwijdert de marges rondom het element */
     padding: 0; /* Verwijdert de opvulling binnen het element */
@@ -156,7 +157,7 @@
     align-items: center; /* Center de items verticaal */
     gap: 20px; /* Ruimte tussen de items */
     padding: 20px; /* Binnenmarges */
-    margin: 20px auto; /* Verticale marges instellen en horizontaal centreren */
+    margin: 20px auto; /* binnen de box */
     width: 80%; /* Breedte instellen op 80% */
     text-align: center; /* Tekst centreren */
  }
@@ -175,4 +176,7 @@
     color: #333; /* Tekstkleur */
     font-size: 14px; /* Tekstgrootte */
  }
- 
+.kopje5{
+font-size: x-large;
+font-style: oblique;
+}
